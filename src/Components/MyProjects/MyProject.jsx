@@ -1,6 +1,19 @@
+import { useEffect, useState } from "react";
+import ProjectCard from "./ProjectCard";
+
 
 
 const MyProject = () => {
+    const [doctors,setDoctors] = useState([])
+
+    useEffect(()=>{
+        fetch('/projectdata.json')
+        .then(res => res.json())
+        .then(data =>{
+            setDoctors(data)
+        })
+    },[])
+    
     return (
         <div>
             <div className='text-center pt-36'>
@@ -15,6 +28,11 @@ const MyProject = () => {
                     </span>
 
                 </p>
+                <div className="grid grid-cols-2 gap-2 m-40">
+                    {
+                        doctors.map(project => <ProjectCard key={project.id} project={project}></ProjectCard>)
+                    }
+                </div>
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 
 
 import Banner from '../../Components/Banner/Banner';
+import Myeducation from '../../Components/MyEducation/Myeducation';
 import MyProject from '../../Components/MyProjects/MyProject';
 import MyService from '../../Components/MyServices/MyService';
 import Myskill from '../../Components/Myskill/Myskill';
@@ -12,6 +13,7 @@ const Home = () => {
             <MyService></MyService>
             <Myskill></Myskill>
             <MyProject></MyProject>
+            <Myeducation></Myeducation>
         </div>
     );
 };
