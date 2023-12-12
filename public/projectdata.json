@@ -2,82 +2,72 @@
     {
       "id": 1,
       "projectName": "Rock Fest Management",
-      "websiteName": "www.ecofoods.com",
+      "websiteName": "https://rock-fast-event-management.web.app/",
       "image":"https://i.ibb.co/Yb4YtKx/Connor-Hamilton-4.png",
-      "features": [
-        "Browse a wide range of organic and sustainable food products",
-        "Create a personalized shopping list",
-        "Receive eco-friendly cooking tips",
-        "Track carbon footprint of purchased items",
-        "Connect with local farmers and producers"
-      ],
-      "technologies": [
-        "React.js",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "RESTful API"
-      ]
+      "features1": "Login Authentication with Google",
+      "features2": "Add Food,Delete Food,Donate Food,Update Food",
+      "features3": "Protected Route",
+      "features4": " User can give review, order Food and share",
+      "features5": "Add user,Delete user",
+      "react": "React Js",
+      "tailwind": "Tailwind css",
+      "node":"Node Js",
+      "expressJs":"Express Js",
+      "mongodb":"Mongo DB",
+      "restApi":"Rest Api"
     },
     {
       "id": 2,
       "projectName": "Air Trubo Car Shop",
-      "websiteName": "www.fittrackapp.com",
+      "websiteName": "https://brandingshop-2ce09.web.app/",
       "image":"https://i.ibb.co/BskFNyk/car.jpg",
-      "features": [
-        "Personalized workout plans",
-        "Real-time health tracking",
-        "Nutritional analysis and meal planning",
-        "Social fitness challenges",
-        "Integration with wearable devices"
-      ],
-      "technologies": [
-        "Angular",
-        "Firebase",
-        "Python",
-        "Django",
-        "OAuth 2.0"
-      ]
+      "features1": "Login Authentication with Google",
+      "features2": "Admin can add new product, delete product",
+      "features3": "Protected Route",
+      "features4": "  User can order product and see their order list",
+      "features5": "Add user,Delete user",
+      "react": "React Js",
+      "tailwind": "Tailwind css",
+      "node":"Node Js",
+      "expressJs":"Express Js",
+      "mongodb":"Mongo DB",
+      "restApi":"Rest Api"
     },
     {
       "id": 3,
       "projectName": "Evo Learnig",
-      "websiteName": "www.travelquestexplore.com",
+      "websiteName": "https://evo-learning-7107a.web.app/",
       "image": "https://i.ibb.co/B62K5VL/Connor-Hamilton-4.png",
-      "features": [
-        "Discover unique travel destinations",
-        "Plan and book customized itineraries",
-        "Explore user-generated travel guides",
-        "Connect with fellow travelers",
-        "Receive real-time travel alerts"
-      ],
-      "technologies": [
-        "Vue.js",
-        "Laravel",
-        "MySQL",
-        "Google Maps API",
-        "WebSocket"
-      ]
+      "features1": "Login Authentication with Google",
+      "features2": "Add Food,Delete Food,Donate Food,Update Food",
+      "features3": "Protected Route",
+      "features4": " User can give review, order Food and share",
+      "features5": "Add user,Delete user",
+      "react": "React Js",
+      "tailwind": "Tailwind css",
+      "node":"Node Js",
+      "expressJs":"Express Js",
+      "mongodb":"Mongo DB",
+      "restApi":"Rest Api"
     },
     {
       "id": 4,
-      "projectName": "Food Sharing Community",
+      "projectName": "https://foodsharingproject-7b9be.web.app/",
       "websiteName": "www.learnhubedu.com",
       "image":"https://i.ibb.co/FbF2nKK/Connor-Hamilton-5.png",
-      "features": [
-        "Access a diverse library of online courses",
-        "Interactive quizzes and assessments",
-        "Collaborative learning communities",
-        "Track learning progress and achievements",
-        "Certification upon course completion"
-      ],
-      "technologies": [
-        "React Native",
-        "ASP.NET Core",
-        "SQL Server",
-        "GraphQL",
-        "Azure DevOps"
-      ]
+      "features1": "Login Authentication with Google",
+      "features2": "Add Food,Delete Food,Donate Food,Update Food",
+      "features3": "Protected Route",
+      "features4": " User can give review, order Food and share",
+      "features5": "Add user,Delete user",
+      "react": "React Js",
+      "tailwind": "Tailwind css",
+      "node":"Node Js",
+      "expressJs":"Express Js",
+      "mongodb":"Mongo DB",
+      "restApi":"Rest Api"
+
+      
     }
 ]
   

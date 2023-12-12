@@ -31,8 +31,8 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="#"><FaGithub className="mr-3 text-4xl text-black"></FaGithub></a>
-                <a href="#"><FaLinkedin className="text-4xl text-sky-600"></FaLinkedin></a>
+                <a href="https://github.com/henryjobel"><FaGithub className="mr-3 text-4xl text-black"></FaGithub></a>
+                <a href="https://www.linkedin.com/in/henry-joy-saha-6337981ab/"><FaLinkedin className="text-4xl text-sky-600"></FaLinkedin></a>
             </div>
         </div>
         </div>

@@ -1,8 +1,9 @@
 import React from 'react';
 import { FaArrowCircleRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
-  const { projectName, image } = project;
+  const { projectName, image,id } = project;
 
   return (
     <div className="card-container" data-aos="zoom-in">
@@ -23,9 +24,9 @@ const ProjectCard = ({ project }) => {
             <h2 className="mb-4 text-3xl font-bold">{projectName}</h2>
             
             {/* You can customize the button and icon styling here */}
-            <button className="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700">
+            <Link to={`/prjectDetails/${id}`}><button className="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700">
               <FaArrowCircleRight className='text-3xl' />
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>

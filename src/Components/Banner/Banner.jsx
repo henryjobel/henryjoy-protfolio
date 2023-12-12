@@ -34,7 +34,7 @@ const Banner = () => {
                                     >
                                         Hey 👋 I am{' '}
                                         <motion.span style={{ color: '#3498db' }}>
-                                            Henry Joble
+                                            Henry Jobel
                                         </motion.span>
                                     </motion.h2>
                                 )}
@@ -53,10 +53,10 @@ const Banner = () => {
                                     <br className="block sm:hidden" />Ask me on
                                 </p>
                                 <div className='flex gap-2 pt-4'>
-                                    <a href="#"><FaLinkedin className='text-4xl text-blue-600'></FaLinkedin></a>
-                                    <a href="#"><FaFacebook className='text-4xl text-sky-600'></FaFacebook></a>
-                                    <a href="#"><CiInstagram className='text-4xl text-pink-800'></CiInstagram></a>
-                                    <a href="#"><FaWhatsapp className='text-4xl text-green-600'></FaWhatsapp></a>
+                                    <a href="https://www.linkedin.com/in/henry-joy-saha-6337981ab/"><FaLinkedin className='text-4xl text-blue-600'></FaLinkedin></a>
+                                    <a href="https://www.facebook.com/JobelHenryS/"><FaFacebook className='text-4xl text-sky-600'></FaFacebook></a>
+                                    <a href="https://www.instagram.com/jobelhenrys/"><CiInstagram className='text-4xl text-pink-800'></CiInstagram></a>
+                                    <a href="https://www.whatsapp.com/"><FaWhatsapp className='text-4xl text-green-600'></FaWhatsapp></a>
                                 </div>
                             </div>
                             <div className='gap-5 pt-5'>
