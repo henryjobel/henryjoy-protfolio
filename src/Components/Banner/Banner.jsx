@@ -42,9 +42,7 @@ const Banner = () => {
                             </AnimatePresence>
 
                             <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
-                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                                amet sint. Velit officia consequat duis enim velit mollit.
-                                Exercitation veniam consequat sunt nostrud amet.
+                            I am a passionate MERN STCK Developer based all over the country. I love working with technologies like React and Node.js, and I am constantly exploring new technologies to enhance my skills.
                             </p>
 
                             <div>
@@ -55,15 +53,20 @@ const Banner = () => {
                                     </span>
                                     <br className="block sm:hidden" />Ask me on
                                 </p>
-                                <div className='flex gap-2'>
+                                <div className='flex gap-2 pt-4'>
                                     <a href="#"><FaLinkedin className='text-4xl text-blue-600'></FaLinkedin></a>
                                     <a href="#"><FaFacebook className='text-4xl text-sky-600'></FaFacebook></a>
                                     <a href="#"><CiInstagram className='text-4xl text-pink-800'></CiInstagram></a>
                                     <a href="#"><FaWhatsapp className='text-4xl text-green-600'></FaWhatsapp></a>
                                 </div>
                             </div>
+                            <div className='gap-5 pt-5'>
+                                <button className='mr-3 btn btn-outline btn-success'>Hire me</button>
+                                
+                                <button className='btn btn-outline btn-info'>My Resume</button>
+                            </div>
                         </div>
-                        {/* image section */}
+                        {/* image section*/}
                         <div className="relative" data-aos="fade-left">
                             <motion.img
                                 className="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2"

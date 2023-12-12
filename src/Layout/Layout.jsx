@@ -4,9 +4,11 @@ import NavBar from '../Components/Header/NavBar/NavBar';
 
 const Layout = () => {
     return (
-        <div className='bg-blue-950'>
+        <div className='bg-gray-50'>
             <NavBar></NavBar>
-            <Outlet></Outlet>
+           <div className='pt-20'>
+           <Outlet></Outlet>
+           </div>
         </div>
     );
 };
