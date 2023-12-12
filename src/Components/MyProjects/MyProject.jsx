@@ -15,7 +15,7 @@ const MyProject = () => {
     },[])
     
     return (
-        <div>
+        <div id="project">
             <div className='text-center pt-36'>
                 <p className="text-3xl font-bold">
                     Check My

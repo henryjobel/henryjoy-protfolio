@@ -16,7 +16,7 @@ const MyService = () => {
     };
 
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto' id='service'>
             <div className='text-center pt-36'>
                 <p className="text-3xl font-bold">
                     My
@@ -32,7 +32,7 @@ const MyService = () => {
             </div>
             <div className='flex flex-row justify-center gap-5 pt-20'>
                 <motion.div className="shadow-xl w-80 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="fade-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <FaWordpress className='text-blue-600 text-9xl'></FaWordpress>
@@ -43,7 +43,7 @@ const MyService = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-80 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="zoom-in"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <FaLaptopCode className='text-orange-600 text-9xl'></FaLaptopCode>
@@ -54,7 +54,7 @@ const MyService = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-80 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="fade-left"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <FaCode className='text-green-600 text-9xl'></FaCode>

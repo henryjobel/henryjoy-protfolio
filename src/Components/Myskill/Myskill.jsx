@@ -26,7 +26,7 @@ const Myskill = () => {
         },
     };
     return (
-        <div>
+        <div id="skills">
             <div className='text-center pt-36'>
                 <p className="text-3xl font-bold">
                     My
@@ -42,7 +42,7 @@ const Myskill = () => {
             </div>
             <div className='justify-center gap-5 pt-20 lg:flex lg:flex-row'>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <FaHtml5 className='text-orange-600 text-9xl'></FaHtml5>
@@ -52,7 +52,7 @@ const Myskill = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <FaCss3Alt className='text-blue-600 text-9xl'></FaCss3Alt>
@@ -62,7 +62,7 @@ const Myskill = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <SiJavascript className='text-yellow-300 text-9xl'></SiJavascript>
@@ -72,7 +72,7 @@ const Myskill = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <FaBootstrap className='text-purple-800 text-9xl'></FaBootstrap>
@@ -82,7 +82,7 @@ const Myskill = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <SiTailwindcss className='text-sky-400 text-9xl'></SiTailwindcss>
@@ -92,7 +92,7 @@ const Myskill = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <FaReact className='text-blue-400 text-9xl'></FaReact>
@@ -104,17 +104,17 @@ const Myskill = () => {
             </div>
             <div className='justify-center gap-5 pt-20 lg:flex lg:flex-row'>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
-                        <FaNode className='text-green-600 text-9xl'></FaNode>
+                        <FaNode className='text-green-600 text-9xl' ></FaNode>
                     </motion.figure>
                     <div className="items-center text-center card-body">
                         <h2 className="card-title">Node js</h2>
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <SiExpress className='text-blue-600 text-9xl'></SiExpress>
@@ -124,7 +124,7 @@ const Myskill = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <SiMongodb className='text-green-700 text-9xl'></SiMongodb>
@@ -134,7 +134,7 @@ const Myskill = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <IoLogoFirebase className='text-yellow-400 text-9xl'></IoLogoFirebase>
@@ -144,7 +144,7 @@ const Myskill = () => {
                     </div>
                 </motion.div>
                 <motion.div className="shadow-xl w-50 card bg-base-100 hover:border-blue-500"
-                    whileHover={{ scale: 1.05 }}
+                    whileHover={{ scale: 1.05 }} data-aos="flip-right"
                 >
                     <motion.figure className="px-10 pt-10" variants={iconVariants} whileHover="hover">
                         <FaWordpress className='text-sky-600 text-9xl'></FaWordpress>

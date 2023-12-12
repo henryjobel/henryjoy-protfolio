@@ -1,6 +1,7 @@
 
 
 import Banner from '../../Components/Banner/Banner';
+import Contact from '../../Components/Contactme/Contact';
 import Myeducation from '../../Components/MyEducation/Myeducation';
 import MyProject from '../../Components/MyProjects/MyProject';
 import MyService from '../../Components/MyServices/MyService';
@@ -14,6 +15,7 @@ const Home = () => {
             <Myskill></Myskill>
             <MyProject></MyProject>
             <Myeducation></Myeducation>
+            <Contact></Contact>
         </div>
     );
 };

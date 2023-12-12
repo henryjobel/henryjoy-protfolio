@@ -1,14 +1,15 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import logo from "../../../assets/henry-removebg-preview.png"
 
+
 const NavBar = () => {
     const navLinks = 
     <>
-    <li><a>Home</a></li>
-    <li><a>About</a></li>
-    <li><a>My Skill</a></li>
-    <li><a>Projcets</a></li>
-    <li><a>Contact</a></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#service">Service</a></li>
+    <li><a href="#project">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
     </> 
     return (
         <div className="container mx-auto">

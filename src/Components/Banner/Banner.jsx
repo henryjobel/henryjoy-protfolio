@@ -5,8 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { CiInstagram } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
-
-
+import resumne from '../../assets/dummy.pdf'
 
 
 
@@ -63,7 +62,7 @@ const Banner = () => {
                             <div className='gap-5 pt-5'>
                                 <button className='mr-3 btn btn-outline btn-success'>Hire me</button>
                                 
-                                <button className='btn btn-outline btn-info'>My Resume</button>
+                                <a href={resumne} className='btn btn-outline btn-info' download='resume'>Resume</a>
                             </div>
                         </div>
                         {/* image section*/}

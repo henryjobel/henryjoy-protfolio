@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
   const { projectName, image } = project;
 
   return (
-    <div className="card-container">
+    <div className="card-container" data-aos="zoom-in">
       <div className="relative overflow-hidden group">
         {/* Image */}
         <img

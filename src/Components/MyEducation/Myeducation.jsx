@@ -2,8 +2,8 @@ import React from 'react';
 
 const Myeducation = () => {
     return (
-        <div>
-            <div className='text-center pt-36'>
+        <div data-aos="zoom-out-up">
+            <div className='text-center pt-36' data-aos="zoom-out-up">
                 <p className="text-3xl font-bold">
                     My
                     <span className="relative inline-block mx-1 text-4xl font-extrabold text-blue-500 stroke-current">
